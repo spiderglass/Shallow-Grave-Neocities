@@ -5,17 +5,17 @@
 }
 
 body {
-    color: #6a6a6a;
-    font-size: 11px;
-    font-family: arial;
-    font-weight: normal;
-    text-align: left;
-    line-height: 150%;
     background-color: black;
-    margin: 8px;
+    color: #6a6a6a;
+    cursor: auto;
+    font-family: 'arial', sans-serif;
     font-optical-sizing: auto;
+    font-size: 11px;
     font-style: normal;
-    cursor: url(images/standard.png), auto;
+    font-weight: normal;
+    line-height: 150%;
+    margin: 8px;
+    text-align: left;
 }
 
 p {
