@@ -2,6 +2,9 @@
   font-family: "Abaddon";
   src: url("../fonts/Abaddon.TTF") format("truetype");
 }
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #000;
     color: grey;
@@ -9,22 +12,24 @@ body {
     max-width: 100%;
     margin: 2.5em 2.5em;
 }
-
+main {
+    width: 90%;
+}
 a:link {
-    color: aliceblue;
+    color: #d3dfe4;
 }
 a:hover {
-    color: dodgerblue;
+    color: #6a6a6a;
     background-color: transparent;
     font-style: italic;
 }
 a:visited {
-    dodgerblue;
+    color: #6a6a6a;
 }
 
 h1, h2, h3{
     color:#d3dfe4;
-    font-family: "Abaddon", cursive;
+    font-family: "Abaddon", serif;
     font-style: normal;
     font-weight: 400;
     text-align: center;
