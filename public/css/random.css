@@ -9,11 +9,19 @@ body {
     background-color: #000;
     color: grey;
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     max-width: 100%;
     margin: 2.5em 2.5em;
 }
 main {
     width: 90%;
+=======
+}
+
+main {
+    width: 90%;
+    margin: auto;
+>>>>>>> c3df7ad (updating untracked changes)
 }
 a:link {
     color: #d3dfe4;

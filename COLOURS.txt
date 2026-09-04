@@ -5,12 +5,20 @@ COLOURS:
 #a8b5c7
 #d8dee0
 #42500f
+<<<<<<< HEAD
+=======
+#383838
+>>>>>>> c3df7ad (updating untracked changes)
 
 black
 white
 
 FONTS:
+<<<<<<< HEAD
 Medieval Sharp
+=======
+Medieval Sharp, Abbadon
+>>>>>>> c3df7ad (updating untracked changes)
 
 HEADINGS:
 Medieval Sharp
