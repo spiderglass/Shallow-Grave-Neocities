@@ -4,7 +4,9 @@
     --crimson-violet: #4c192dff;
     --onyx: #000f08ff;
     --antique-white: #faeadbff;
-    --rosy-granite: #919098ff;
+    --rosy-granite: #bcb9df; /*actually called Periwinkle*/
+
+    --border: #919098ff 3px groove;
 }
 
 * {
@@ -21,7 +23,8 @@ body {
 }
 
 #container {
-    max-width: 900px;
+    border: var(--border);
+    max-width: 800px;
     /* if you change the above value, scroll to the bottom and change the media query according to the comment! */
     margin: 0 auto;
 }
@@ -46,12 +49,13 @@ body {
 
 /* navigation section!! */
 #navbar {
+    border-top: var(--border);
+    border-bottom: var(--border);
     height: 40px;
     background-color: var(--onyx);
     /* navbar color */
     width: 100%;
 }
-
 #navbar ul {
     display: flex;
     padding: 0;
@@ -59,12 +63,9 @@ body {
     list-style-type: none;
     justify-content: space-evenly;
 }
-
 #navbar li {
     padding-top: 10px;
 }
-
-/* navigation links*/
 #navbar li a {
     color: var(--antique-white);
     /* navbar text color */
@@ -72,8 +73,6 @@ body {
     text-decoration: none;
     /* this removes the underline */
 }
-
-/* navigation link when a link is hovered over */
 #navbar li a:hover {
     color: var(--antique-white);
     text-decoration: bold;
@@ -94,6 +93,8 @@ aside {
 
 main {
     background-color: var(--crimson-violet);
+    border-left: var(--border);
+    border-right: var(--border);
     flex: 1;
     padding: 20px;
     order: 2;
@@ -105,7 +106,7 @@ main {
     tells the CSS the order in which to display them.
     left sidebar is 1, content is 2, and right sidebar is 3! */
 
-*/ #leftSidebar {
+#leftSidebar {
     order: 1;
 }
 
@@ -115,6 +116,7 @@ main {
 
 footer {
     background-color: var(--onyx);
+    border-top: var(--border);
     /* background color for footer */
     width: 100%;
     height: 40px;
@@ -152,7 +154,7 @@ strong {
             and then subtrack it by 100. use this new number as the 
             "max-width" value below */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     #flex {
         flex-wrap: wrap;
     }
